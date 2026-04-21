@@ -1,0 +1,21 @@
+{
+  "schema_version": "1",
+  "id": "credentials-test",
+  "display_name": "Credentials Test",
+  "version": "1.0.0",
+  "namespace": "project.credentials-test",
+  "backend": {
+    "entry_point": "agentforge_credentials.plugin:register",
+    "routes_prefix": "/api/credentials-test",
+    "resource_providers": []
+  },
+  "agents": [
+    { "name": "credentials-test-agent", "path": "agentforge_credentials/agents/credentials_test_agent" }
+  ],
+  "frontend": {
+    "remote_url": "",
+    "nav_label": "Credentials Test",
+    "nav_icon": "Key",
+    "route": "/credentials-test"
+  }
+}
