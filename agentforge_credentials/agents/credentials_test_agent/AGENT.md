@@ -9,7 +9,6 @@ credentials:
   - key: test-rig-key
     scope: global
     required: true
-runner: agentforge_credentials.agents.credentials_test_agent.runner:CredentialsRunner
 ---
 
 # Credentials Test Agent
